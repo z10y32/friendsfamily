@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Friends Family</title>
+		<meta name="description" content="Тестовый сайт ателье" />
+		<meta name="keywords" content="мета-теги, шаблон, html, css" />
+		<meta name="robots" content="index,follow,noodp" />
+		<script src="https://kit.fontawesome.com/cbbfd31953.js" crossorigin="anonymous"></script>
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+	<body class="body">
+		<div class="wrap">
+			<div id="main" class="page">
+				<header class="header">
+					<div class="container">
+						<div class="header-indent">
+							<div class="header-inner">
+								<div class="logo">
+									<img class="logo__img" src="images/logo.svg" alt="logo" />
+									<a class="logo__link" href="#">
+										<span class="logo__link logo__link--color-text">Friends</span>
+										Family
+									</a>
+								</div>
+								<nav class="menu">
+									<a class="menu__link" href="#main">ГЛАВНАЯ</a>
+									<a class="menu__link" href="#scheme">СХЕМА РАБОТЫ</a>
+									<a class="menu__link" href="#present">ПОДАРОК</a>
+									<a class="menu__link" href="#contacts">КОНТАКТЫ</a>
+								</nav>
+							</div>
+						</div>
+					</div>
+				</header>
+				<main class="main">
+					<div class="about">
+						<div class="container">
+							<div class="about-indent">
+								<div class="about-inner">
+									<div class="about-content">
+										<h1 class="about-content__title">
+											Ателье <br />
+											одинаковой одежды <br />
+											для всей семьи
+										</h1>
+										<h3 class="about-content__subtitle">
+											Индивидуальный пошив.
+										</h3>
+										<p class="about-content__text">
+											Оставьте свой номер телефона или ссылку <br />
+											на VK или Facebook страницу, и мы с вами <br />
+											свяжемся.
+										</p>
+										<button class="about-content__button about-content__popup-open">
+											ОСТАВИТЬ КОНТАКТЫ
+										</button>
+									</div>
+									<div class="about-slider">
+										<div class="about-slider__item">
+											<img
+												class="about-slider__img"
+												data-lazy="images/slider_img2.png"
+												alt="photo"
+											/>
+										</div>
+										<div class="about-slider__item">
+											<img
+												class="about-slider__img"
+												data-lazy="images/slider_img1.png"
+												alt="photo"
+											/>
+										</div>
+										<div class="about-slider__item">
+											<img
+												class="about-slider__img"
+												data-lazy="images/slider_img3.png"
+												alt="photo"
+											/>
+										</div>
+									</div>
+									<div class="about-slider">
+										<div class="about-slider__item">
+											<img
+												class="about-slider__img"
+												data-lazy="images/slider_img5.png"
+												alt="photo"
+											/>
+										</div>
+										<div class="about-slider__item">
+											<img
+												class="about-slider__img"
+												data-lazy="images/slider_img4.png"
+												alt="photo"
+											/>
+										</div>
+										<div class="about-slider__item">
+											<img
+												class="about-slider__img"
+												data-lazy="images/slider_img6.png"
+												alt="photo"
+											/>
+										</div>
+									</div>
+									<div class="about-content about-content--text-align">
+										<h3 class="about-content__subtitle">
+											Для Вас и Ваших деток.
+										</h3>
+										<h2 class="about-content__title about-content__title--font-size">
+											Мы создаем комплекты <br />
+											в единственном экземпляре
+										</h2>
+										<p lass="about-content__text about-content__text--line-height">
+											Хотите выделяться из толпы? <br />
+											Оставьте свои контакты и мы с вами свяжемся <br />
+											для обсуждения заказа.
+										</p>
+										<button class="about-content__button" type="button">
+											ОСТАВИТЬ КОНТАКТЫ
+										</button>
+									</div>
+									<div class="about-content">
+										<h3 class="about-content__subtitle">
+											Уникально для Вас!
+										</h3>
+										<h2 class="about-content__title about-content__title--font-size">
+											Пошив с учетом особенностей <br />
+											вашей фигуры!
+										</h2>
+										<p class="about-content__text about-content__text--line-height">
+											Вы знаете, чего хотите? <br />
+											Оставьте заявку с фотографией и мы вышлем вам <br />
+											примерную смету через 15 минут!
+										</p>
+										<button class="about-content__button" type="button">
+											ОСТАВИТЬ ЗАЯВКУ
+										</button>
+									</div>
+									<div class="about-slider">
+										<div class="about-slider__item">
+											<img
+												class="about-slider__img"
+												data-lazy="images/slider_img6.png"
+												alt="photo"
+											/>
+										</div>
+										<div class="about-slider__item">
+											<img
+												class="about-slider__img"
+												data-lazy="images/slider_img2.png"
+												alt="photo"
+											/>
+										</div>
+										<div class="about-slider__item">
+											<img
+												class="about-slider__img"
+												data-lazy="images/slider_img1.png"
+												alt="photo"
+											/>
+										</div>
+									</div>
+									<div class="request-popup">
+										<div class="request-popup-overlay">
+										</div>
+										<div class="request-popup-content">
+											<form class="request-popup-content-form" action="#" method="POST" enctype="multipart/form-data">
+												<p>Имя</p>
+												<input class="input" type="text" name="user-name" />
+												<p>Телефон</p>
+												<input class="input" type="tel" name="user-phone" />
+												<p>Ссылка на VK или Facebook</p>
+												<input class="input" type="url" name="user-social" />
+												<p>Фотография или эскиз</p>
+												<input class="" type="file" name="user-sketch" />
+												<button class="submit" type="submit">ОТПРАВИТЬ ЗАЯВКУ</button>
+											</form>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div id="scheme" class="scheme">
+						<div class="container">
+							<div class="sheme-indent">
+								<h2 class="sheme__title">
+									Схема работы
+								</h2>
+								<div class="sheme-inner">
+									<div class="sheme-card">
+										<img
+											class="sheme-card__img"
+											src="images/sheme_notepad.png"
+											alt="icon"
+										/>
+										<h4 class="sheme-card__title">
+											Вы оставляете заявку.
+										</h4>
+										<p class="sheme-card__text">
+											Мы связываемся с вами и уточняем детали.
+										</p>
+									</div>
+									<div class="sheme-card">
+										<img
+											class="sheme-card__img"
+											src="images/sheme_weight-loss.png"
+											alt="icon"
+										/>
+										<h4 class="sheme-card__title">
+											Снятие мерок.
+										</h4>
+										<p class="sheme-card__text">
+											Снимаете мерки самостоятельно или же приезжаете к нам.
+										</p>
+									</div>
+									<div class="sheme-card">
+										<img
+											class="sheme-card__img"
+											src="images/sheme_waist.png"
+											alt="icon"
+										/>
+										<h4 class="sheme-card__title">
+											Вдаемся в детали.
+										</h4>
+										<p class="sheme-card__text">
+											Изучаем ваш цветотип и особенности вашей фигуры.
+										</p>
+									</div>
+									<div class="sheme-card">
+										<img
+											class="sheme-card__img"
+											src="images/sheme_towel.png"
+											alt="icon"
+										/>
+										<h4 class="sheme-card__title">
+											Подбираем ткань.
+										</h4>
+										<p class="sheme-card__text">
+											Выбираем цвет, материал ткани и фурнитуры.
+										</p>
+									</div>
+									<div class="sheme-card">
+										<img
+											class="sheme-card__img"
+											src="images/sheme_dress.png"
+											alt="icon"
+										/>
+										<h4 class="sheme-card__title">
+											Выкройка и пошив.
+										</h4>
+										<p class="sheme-card__text">
+											Делаем выкройки по вашим меркам и шьем изделие.
+										</p>
+									</div>
+									<div class="sheme-card">
+										<img
+											class="sheme-card__img"
+											src="images/sheme_giftbox-with-big-lace.png"
+											alt="icon"
+										/>
+										<h4 class="sheme-card__title">
+											Упаковка и отправка.
+										</h4>
+										<p class="sheme-card__text">
+											Упаковываем в подарочную коробку и отправляем Вам.
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div id="present" class="present">
+						<div class="container">
+							<div class="present-indent">
+								<h2 class="present__title">
+									Что в упаковке?
+								</h2>
+								<div class="present-inner">
+									<div class="present-card present-card--text-align">
+										<img
+											class="present-card__img"
+											src="images/present_hanger.png"
+											alt="icon"
+										/>
+										<h4 class="present-card__title">
+											Вешалка
+										</h4>
+										<p class="present-card__text">
+											Удобная вешалка в ЭКО-дизайне
+										</p>
+									</div>
+									<img
+										class="present__img"
+										src="images/present_box.png"
+										alt="box"
+									/>
+									<div class="present-card">
+										<img
+											class="present-card__img"
+											src="images/present_sweater.png"
+											alt="icon"
+										/>
+										<h4 class="present-card__title">
+											Изделие в биобумаге
+										</h4>
+										<p class="present-card__text">
+											Ваше изделие в экологичной разлагающейся бумаге.
+										</p>
+									</div>
+									<div class="present-card present-card--text-align">
+										<img
+											class="present-card__img"
+											src="images/present_file.png"
+											alt="icon"
+										/>
+										<h4 class="present-card__title">
+											Инструкция по уходу
+										</h4>
+										<p class="present-card__text">
+											Как стирать, гладить одежду из ткани изделия.
+										</p>
+									</div>
+									<div class="present-card present-card--border">
+										<img
+											class="present-card__img"
+											src="images/present_gift.png"
+											alt="icon"
+										/>
+										<h4 class="present-card__title">
+											Подарок!
+										</h4>
+										<p class="present-card__text">
+											На выбор - <strong>фотосессия</strong> или
+											<strong>кулон</strong>!
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div id="contacts" class="contacts">
+						<div class="container">
+							<div class="contacts-indent">
+								<h2 class="contacts__title">
+									Наши контакты
+								</h2>
+								<div class="contacts-inner">
+									<div class="contacts-content">
+										<h3 class="contacts-content__title">
+											С нетерпением ждем Вас!
+										</h3>
+										<a class="contacts-content__address" href="https://goo.gl/maps/CYFKz5WWVBNyRsmi8" target="_blank">
+											<span class="fas fa-map-marker-alt"></span>
+											&nbsp; &nbsp; г.Москва ул. Дмитрия Ульянова, 30
+										</a>
+										<a class="contacts-content__telephone" href="tel:+74991253162">
+											<span class="fas fa-phone"></span>
+											&nbsp; &nbsp; +7 (499) 125-31-62
+										</a>
+										<div class="contacts-social">
+											<a class="contacts-social__link" href="#">
+												<span class="fab fa-instagram fa-2x"></span>
+											</a>
+											<a class="contacts-social__link" href="#">
+												<span class="fab fa-vk fa-2x"></span>
+											</a>
+											<a class="contacts-social__link" href="#">
+												<span class="fab fa-facebook fa-2x"></span>
+											</a>
+											<a class="contacts-social__link" href="#">
+												<span class="fab fa-behance fa-2x"></span>
+											</a>
+										</div>
+									</div>
+									<iframe
+										class="contacts__map"
+										src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2249.240752248159!2d37.57766231592791!3d55.684801980535276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54cbc24ccc28d%3A0xb51b161f606f14a9!2z0YPQuy4g0JTQvNC40YLRgNC40Y8g0KPQu9GM0Y_QvdC-0LLQsCwgMzAsINCc0L7RgdC60LLQsCwg0KDQvtGB0YHQuNGPLCAxMTc0NDk!5e0!3m2!1sru!2sua!4v1591883129072!5m2!1sru!2sua"
+										allowfullscreen
+										aria-hidden="false"
+										>
+									</iframe>
+								</div>
+							</div>
+						</div>
+					</div>
+				</main>
+			</div>
+		</div>
+		<script src="js/jquery.min.js"></script>
+		<script src="js/slick.min.js"></script>
+		<script src="js/script.js"></script>
+	</body>
+</html>
