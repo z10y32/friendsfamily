@@ -117,7 +117,7 @@
 											Оставьте свои контакты и мы с вами свяжемся <br />
 											для обсуждения заказа.
 										</p>
-										<button class="about-content__button" type="button">
+										<button class="about-content__button about-content__popup-open" type="button">
 											ОСТАВИТЬ КОНТАКТЫ
 										</button>
 									</div>
@@ -134,7 +134,7 @@
 											Оставьте заявку с фотографией и мы вышлем вам <br />
 											примерную смету через 15 минут!
 										</p>
-										<button class="about-content__button" type="button">
+										<button class="about-content__button about-content__popup-open" type="button">
 											ОСТАВИТЬ ЗАЯВКУ
 										</button>
 									</div>
@@ -161,20 +161,32 @@
 											/>
 										</div>
 									</div>
-									<div class="request-popup">
-										<div class="request-popup-overlay">
-										</div>
-										<div class="request-popup-content">
-											<form class="request-popup-content-form" action="#" method="POST" enctype="multipart/form-data">
-												<p>Имя</p>
-												<input class="input" type="text" name="user-name" />
-												<p>Телефон</p>
-												<input class="input" type="tel" name="user-phone" />
-												<p>Ссылка на VK или Facebook</p>
-												<input class="input" type="url" name="user-social" />
-												<p>Фотография или эскиз</p>
-												<input class="" type="file" name="user-sketch" />
-												<button class="submit" type="submit">ОТПРАВИТЬ ЗАЯВКУ</button>
+									<div class="popup">
+										<div class="popup-overlay"></div>
+										<div class="popup-content">
+											<button class="popup-content__close" type="button">
+												<span class="fa fa-times" aria-hidden="true"></span>
+											</button>
+											<form class="popup-content-form" action="#" method="POST" enctype="multipart/form-data">
+												<p class="popup-content-form__text">
+													Имя:
+												</p>
+												<input class="popup-content-form__input" type="text" name="user-name" />
+												<p class="popup-content-form__text">
+													Телефон:
+												</p>
+												<input class="popup-content-form__input" type="tel" name="user-phone" />
+												<p class="popup-content-form__text">
+													Ссылка на VK или Facebook:
+												</p>
+												<input class="popup-content-form__input" type="url" name="user-social" />
+												<p class="popup-content-form__text popup-content-form__text--margin-bottom">
+													Фотография или эскиз:
+												</p>
+												<input class="popup-content-form__input-file" type="file" name="user-sketch" />
+												<button class="popup-content-form__submit" type="submit">
+													ОТПРАВИТЬ ЗАЯВКУ
+												</button>
 											</form>
 										</div>
 									</div>
@@ -352,25 +364,25 @@
 											С нетерпением ждем Вас!
 										</h3>
 										<a class="contacts-content__address" href="https://goo.gl/maps/CYFKz5WWVBNyRsmi8" target="_blank">
-											<span class="fas fa-map-marker-alt"></span>
+											<span class="fas fa-map-marker-alt" aria-hidden="true"></span>
 											&nbsp; &nbsp; г.Москва ул. Дмитрия Ульянова, 30
 										</a>
 										<a class="contacts-content__telephone" href="tel:+74991253162">
-											<span class="fas fa-phone"></span>
+											<span class="fas fa-phone" aria-hidden="true"></span>
 											&nbsp; &nbsp; +7 (499) 125-31-62
 										</a>
 										<div class="contacts-social">
 											<a class="contacts-social__link" href="#">
-												<span class="fab fa-instagram fa-2x"></span>
+												<span class="fab fa-instagram fa-2x" aria-hidden="true"></span>
 											</a>
 											<a class="contacts-social__link" href="#">
-												<span class="fab fa-vk fa-2x"></span>
+												<span class="fab fa-vk fa-2x" aria-hidden="true"></span>
 											</a>
 											<a class="contacts-social__link" href="#">
-												<span class="fab fa-facebook fa-2x"></span>
+												<span class="fab fa-facebook fa-2x" aria-hidden="true"></span>
 											</a>
 											<a class="contacts-social__link" href="#">
-												<span class="fab fa-behance fa-2x"></span>
+												<span class="fab fa-behance fa-2x" aria-hidden="true"></span>
 											</a>
 										</div>
 									</div>
