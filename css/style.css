@@ -161,6 +161,7 @@ img {
 }
 
 .menu__link:hover {
+	color: #ff5b97;
 }
 
 .about-indent {
@@ -462,6 +463,10 @@ img {
 	margin-bottom: 30px;
 }
 
+.contacts-content__address:hover {
+	color: #ff5b97;
+}
+
 .contacts-content__telephone {
 	display: block;
 	font-size: 20px;
@@ -469,11 +474,19 @@ img {
 	margin-bottom: 55px;
 }
 
+.contacts-content__telephone:hover {
+	color: #ff5b97;
+}
+
 .contacts__social {
 	display: grid;
 	grid-template-columns: repeat(4, max-content);
 	column-gap: 25px;
 	margin-bottom: 65px;
+}
+
+.contacts-social__link:hover {
+	color: #ff5b97;
 }
 
 .source-code__link {
