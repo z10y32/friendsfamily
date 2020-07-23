@@ -472,10 +472,18 @@ img {
 	margin-bottom: 55px;
 }
 
-.contacts-social {
+.contacts__social {
 	display: grid;
 	grid-template-columns: repeat(4, max-content);
 	column-gap: 25px;
+	margin-bottom: 65px;
+}
+
+.source-code__link {
+	padding: 10px;
+	font-size: 26px;
+	border: 2px solid #e72867;
+	border-radius: 25px;
 }
 
 .contacts__map {
