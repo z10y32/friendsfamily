@@ -301,8 +301,8 @@ img {
 	right: 15px;
 }
 
-.fa-times-circle-o {
-	color: #333333;
+.popup-content__close:hover {
+	color: #ff5b97;
 }
 
 .popup-content-form {
@@ -311,6 +311,7 @@ img {
 }
 
 .popup-content-form__text {
+	font-weight: 700;
 	margin-bottom: 10px;
 }
 
@@ -463,19 +464,11 @@ img {
 	margin-bottom: 30px;
 }
 
-.contacts-content__address:hover {
-	color: #ff5b97;
-}
-
 .contacts-content__telephone {
 	display: block;
 	font-size: 20px;
 	font-weight: 700;
 	margin-bottom: 55px;
-}
-
-.contacts-content__telephone:hover {
-	color: #ff5b97;
 }
 
 .contacts__social {
